@@ -1,0 +1,197 @@
+body {
+    margin: 0 auto;
+    padding: 0 15px;
+    font-weight: 400;     
+    font-family: 'manrope', sans-serif;
+    width: 1400px;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    background: #ffffff;
+    padding-top: 128px;
+    margin: 0 auto;
+}
+
+section { 
+    margin: 0 auto;
+    width: 1150px;
+    margin-top: 150px;
+}
+section:first-child{
+    margin-top: 0;
+}
+
+h1, 
+h2, 
+h3 {
+    color: #121212;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+.projects, 
+.service {
+    letter-spacing:  -0.03em;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 30px;
+    width: 51px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-transform: uppercase;
+}
+
+.picture {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url('./pictures/design_interior.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paragraf_pucture {
+    position: absolute;
+    bottom: 40px;    
+    left: 40px;
+    width: 430px;
+    height: 81px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+}
+
+.description_about {
+    margin-bottom: 30px;
+    width: 1048px;
+    height: 366px;
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+ }
+
+.btn {
+    display: block;
+    width: 255px;
+    height: 67px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 67px;
+    background-color: #ad1818;
+    color: #ffffff;
+}
+
+.project__image {
+    width: 1150px;
+    height: 450px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.projects {
+    width: 100%;
+}
+
+.project {
+    margin-bottom: 90px;
+}
+
+.project__name {
+    padding-bottom: 15px;
+    width: 542px;
+    height: 41px;
+    font-size: 30px;
+}
+
+.project__detail {
+    width: 127px;
+    height: 27px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+    color: #ad1818;
+}
+
+.project__wrapper {
+    margin-top: 90px;
+    width: 1150px;
+    line-height: 153px;
+    display: block;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffff;
+    text-decoration: none;
+    color: #ad1818;
+}
+
+.project__wrapper:hover {
+    color: #ffffff;
+    background-color: #ad1818;
+}
+
+.service_section {
+    width: 100%;
+    background-color: black;
+}    
+
+.services {
+    padding-bottom: 34px;
+    padding-top: 151px;
+    padding-left: 127px;
+    width: 66px;
+    height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.service {
+    padding-bottom: 150px;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+
+.service__name {
+    width: 1150px;
+    height: 326px;
+    margin-bottom: 60px;
+}
+
+.service__wrapper {
+    width: 680px;
+    height: 41px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.service__image {
+    padding-bottom: 15px;
+}
+
+.service__name:nth-child(4) {
+    margin-bottom: 0;
+}
